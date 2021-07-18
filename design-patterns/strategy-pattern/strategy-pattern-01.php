@@ -20,7 +20,7 @@ class PrintTextDisplayBehaviour implements DisplayBehaviour
 {
     public function display()
     {
-        echo "Imprimo un texto\n";
+        echo "I print a text\n";
     }
 }
 
@@ -28,7 +28,7 @@ class PlayButtonDisplayBehaviour implements DisplayBehaviour
 {
     public function display()
     {
-        echo "Muestro un botón de play\n";
+        echo "I show a play button\n";
     }
 }
 
@@ -38,7 +38,7 @@ abstract class Excercise
 
     public function remove()
     {
-        echo "Elimino el ejercicio\n";
+        echo "I remove the excercise\n";
     }
     
     public function doDisplay()
