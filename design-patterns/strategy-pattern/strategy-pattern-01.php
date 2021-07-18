@@ -34,11 +34,11 @@ class PlayButtonDisplayBehaviour implements DisplayBehaviour
 
 abstract class Excercise
 {
-    public DisplayBehaviour $displayBehaviour;
+    protected DisplayBehaviour $displayBehaviour;
 
     public function remove()
     {
-        echo "I remove the excercise\n";
+        echo "I removed the excercise\n";
     }
     
     public function doDisplay()
